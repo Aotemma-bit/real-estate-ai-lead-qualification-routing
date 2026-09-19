@@ -1,0 +1,8 @@
+| Technology                      | Purpose                                       |
+| ------------------------------- | --------------------------------------------- |
+| **n8n**                         | Workflow orchestration and automation         |
+| **Claude**                      | AI-powered lead qualification                 |
+| **Webhooks**                    | Lead intake and system integration            |
+| **Google Sheets**               | Demonstration CRM / lead storage              |
+| **Gmail**                       | Lead notifications                            |
+| **JavaScript / workflow logic** | Data transformation and deterministic scoring |
