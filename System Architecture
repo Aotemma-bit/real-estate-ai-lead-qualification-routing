@@ -1,0 +1,51 @@
+                 INBOUND LEAD
+                      │
+                      ▼
+              ┌───────────────┐
+              │ Webhook Intake│
+              └───────┬───────┘
+                      │
+                      ▼
+              ┌───────────────┐
+              │ Normalize Lead│
+              └───────┬───────┘
+                      │
+                      ▼
+              ┌───────────────┐
+              │ Validate Lead │
+              └───────┬───────┘
+                      │
+             ┌────────┴────────┐
+             │                 │
+          INVALID             VALID
+             │                 │
+             ▼                 ▼
+       Rejection         Claude AI
+        Response       Qualification
+                               │
+                               ▼
+                       Structured Signals
+                               │
+                               ▼
+                    Deterministic Scoring
+                               │
+                               ▼
+                         Store in CRM
+                               │
+                               ▼
+                       Lead Classification
+                               │
+             ┌─────────┬───────┼────────┐
+             │         │       │        │
+            HOT       WARM   NURTURE   COLD
+             │         │       │        │
+             ▼         ▼       ▼        ▼
+          Notify    Notify   Drip      Log
+             │         │       │        │
+             └─────────┴───────┴────────┘
+                               │
+                               ▼
+                       Prepare Response
+                               │
+                               ▼
+                         Lead Response
